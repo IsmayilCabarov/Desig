@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.roadBox {
+  width: 100%;
+  margin: auto;
+}
+.roadBox {
+  background-image: url(../images/imi.png);
+  height: 100vh;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  overflow: hidden;
+}
+
+.roadBox .text {
+  padding: 17rem;
+  width: 60%;
+  padding-top: 12rem;
+}
+
+.roadBox .text button{
+    margin-top: 1rem;
+    font-size: 27px;
+    border-style: outset;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    color: chartreuse;
+}
+.roadBox .text p{
+    padding-top: 1rem;
+}
+.roadBox .text h1{
+    font-size: 38px;
+}
+
